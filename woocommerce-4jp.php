@@ -81,7 +81,7 @@ class WooCommerce4jp{
 	/**
 	 * Init WooCommerce when WordPress Initialises.
 	 */
-	public function wc4jp_paypal_bn( $fields, $order) {
+	public function wc4jp_paypal_bn( $fields ) {
 		$fields['bn'] = 'ArtisanWorkshop_Cart_WPS_JP';
 		return $fields;
 	}
